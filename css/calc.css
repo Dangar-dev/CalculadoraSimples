@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: tahoma;
+}
+
+h2{
+    font-family: tahoma;
+    font-size: 50px;
+
+  
+}
+
+body{
+    text-align: center;
+    background-color: rgb(135, 249, 255);
+    
+}
+body div{
+     margin-top: 8%;
+  
+}
+
+#but1 ,#but2 {
+	height:45px;
+    width:150px;
+    border-radius:13px;
+	font-size:20px;
+	text-align:center;			  
+}
+
+#bo1, #bo2 , #bo3 , #bo4{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px -4px 20px rgba(7, 40, 206, 0.703); 
+    background-color: rgba(34, 98, 227, 0.901);
+    color: black;
+}
+
+#txtresu, input[type=reset]{
+
+    height:45px;
+    width:150px;
+    border-radius:13px;
+    font-size:15px;
+    color: black;
+}
+
+input[type=reset]{
+    background-color: white;
+    font-family: tahoma;
+}

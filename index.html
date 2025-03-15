@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calc.css">
+    <script src="../java script/calccode.js"></script>
+    <title>Calculadora foda</title>
+</head>
+    <h2>Calculadora</h2>
+
+<body>
+   
+    <div>
+        <br>1°Valor</br>
+        <input id="bo1" type="button" value="+" onClick="Calcular('+','#00ffee')"/>&nbsp;
+      <input type="text" id="but1">
+      <input id="bo2" type="button" value="x" onClick="Calcular('x','#fff494')"/>&nbsp;
+        <br></br>
+        <br>2°Valor</br>
+        <input id="bo3" type="button" value="-" onClick="Calcular('-','#a769ff')"/>&nbsp;
+       <input type="text" id="but2">
+       <input id="bo4" type="button" value=":" onClick="Calcular(':','#e894ff')"/>&nbsp;
+       <br></br>
+       Resultado<br></br><input type="text" id="txtresu" disabled/>
+       <input type="reset" value="LIMPAR" onClick="Limpar()"/>
+    </div>
+</body>
+</html>
